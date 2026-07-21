@@ -28,7 +28,7 @@ You can install the development version of STprocpoisson like so:
 # Install devtools if not already installed
 install.packages("devtools")
 
-# Install Stdyndef from GitHub
+# Install from GitHub
 devtools::install_github("fhernanb/STprocpoisson")
 ```
 
