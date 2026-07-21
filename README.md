@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15651336.svg)](https://doi.org/10.5281/zenodo.15651336)
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# STprocpoisson
+# STprocpoisson <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 <!-- badges: start -->
 
