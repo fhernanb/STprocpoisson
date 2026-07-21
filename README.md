@@ -21,3 +21,7 @@ install.packages("devtools")
 # Install from GitHub
 devtools::install_github("fhernanb/STprocpoisson")
 ```
+
+You can visit the [package
+website](https://fhernanb.github.io/STprocpoisson/) to explore the
+vignettes (articles) and function reference.
