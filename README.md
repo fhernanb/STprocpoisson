@@ -12,7 +12,8 @@ The goal of STprocpoisson is to …
 
 ## Installation
 
-You can install the development version of STprocpoisson like so:
+To install the STprocpoisson package you can use the following the
+instructions:
 
 ``` r
 # Install devtools if not already installed
