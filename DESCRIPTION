@@ -7,14 +7,14 @@ Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
 Imports: 
     graphics,
     MASS,
     stats,
     utils
-URL: https://github.com/Projeto-CNPq-Clima/STprocpoisson
+URL: https://github.com/fhernanb/STprocpoisson
 BugReports: https://github.com/Projeto-CNPq-Clima/STprocpoisson/issues
 Depends: 
     R (>= 3.5)
 LazyData: true
+Config/roxygen2/version: 8.0.0

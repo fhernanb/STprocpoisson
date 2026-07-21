@@ -6,18 +6,25 @@
 \alias{STprocpoisson-package}
 \title{STprocpoisson: What the Package Does (One Line, Title Case)}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 What the package does (one paragraph).
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/Projeto-CNPq-Clima/STprocpoisson}
+  \item \url{https://github.com/fhernanb/STprocpoisson}
   \item Report bugs at \url{https://github.com/Projeto-CNPq-Clima/STprocpoisson/issues}
 }
 
 }
 \author{
 \strong{Maintainer}: First Last \email{first.last@example.com}
+
+Authors:
+\itemize{
+  \item First Last \email{first.last@example.com}
+}
 
 }
 \keyword{internal}
