@@ -2,18 +2,23 @@
 % Please edit documentation in R/transforma.R
 \name{transforma}
 \alias{transforma}
-\title{Title}
+\title{Transformation}
 \usage{
 transforma(mat, lim)
 }
 \arguments{
-\item{mat}{aaaa}
+\item{mat}{an array containing in each column the time series
+corresponding to each location.}
 
-\item{lim}{aaaa}
-}
-\value{
-aaa
+\item{lim}{the threshold of interest.}
 }
 \description{
-Title
+This function converts the time series matrix into a matrix with
+the times of occurrence of the events of interest.
+}
+\examples{
+x <- matrix(runif(n=15), nrow=3, ncol=5)
+
+x
+transforma(mat=x, lim=0.80)
 }
