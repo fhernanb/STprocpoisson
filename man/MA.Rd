@@ -15,15 +15,16 @@ An \code{sf} object with the following details:
 Official cartographic data from Brazilian government agencies.
 }
 \usage{
-data(MA)
+MA
 }
 \description{
-The \code{MA} dataset provides spatial data representing the border of Maranhão state, Brazil.
-It is useful for spatial analyses and modeling in combination with other data from the
+The \code{MA} dataset provides spatial data representing the border
+of Maranhão state, Brazil.
+It is useful for spatial analyses and modeling in combination
+with other data from the
 \code{STprocpoisson} package. This dataset serves as a geographical base map.
 }
 \examples{
-library(STprocpoisson)
 data(MA)
 plot(MA, main = "Maranhão State Border")
 }
