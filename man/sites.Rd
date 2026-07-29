@@ -12,18 +12,29 @@ A data frame with 20 rows and 2 variables:
 }
 }
 \source{
-National Institute of Meteorology (INMET) and National Water and Basic Sanitation Agency (ANA).
+National Institute of Meteorology (INMET) and National
+Water and Basic Sanitation Agency (ANA).
 }
 \usage{
 sites
 }
 \description{
-This dataset contains the geographic coordinates of 20 rain gauge stations located in the states of Maranhão and Piauí, Brazil. These stations were used to monitor daily precipitation data over a 10-year period, from January 1, 2013, to December 31, 2022.
+This dataset contains the geographic coordinates of 20 rain gauge stations
+located in the states of Maranhão and Piauí, Brazil. These stations were
+used to monitor daily precipitation data over a 10-year period, from
+January 1, 2013, to December 31, 2022.
 }
 \details{
-The rain gauge stations are part of a network managed by the National Institute of Meteorology (INMET) and the National Water and Basic Sanitation Agency (ANA). These stations are distributed across Maranhão and Piauí, northeastern Brazil, covering a region known for its diverse climatic and geographic conditions.
+The rain gauge stations are part of a network managed by the National
+Institute of Meteorology (INMET) and the National Water and Basic
+Sanitation Agency (ANA). These stations are distributed across
+Maranhão and Piauí, northeastern Brazil, covering a region known
+for its diverse climatic and geographic conditions.
 
-The coordinates in this dataset can be used for spatial analysis or visualization of the study area. They complement the \code{series} dataset, which contains daily precipitation data recorded at these locations.
+The coordinates in this dataset can be used for spatial analysis
+or visualization of the study area. They complement the \code{series}
+dataset, which contains daily precipitation data recorded at
+these locations.
 }
 \examples{
 # Load the dataset
