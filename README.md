@@ -8,7 +8,9 @@
 
 <!-- badges: end -->
 
-The goal of STprocpoisson is to …
+The goal of STprocpoisson is to implement models of nonhomogeneous
+spatio-temporal Poisson processes for the modeling and analysis of
+extreme climate indices.
 
 ## Installation
 
