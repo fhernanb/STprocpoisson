@@ -22,9 +22,7 @@ It returns a matrix where each column corresponds to a location, and each row co
 This function identifies the times at which the values in each column of a matrix exceed a user-defined threshold.
 }
 \examples{
-library(STprocpoisson)
 data(series)
-Times<-identify_event_times(series,20)
-
+Times <- identify_event_times(series,20)
 
 }

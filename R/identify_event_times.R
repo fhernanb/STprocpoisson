@@ -9,13 +9,10 @@
 #' - `n`: Number of locations.
 #'
 #' @examples
-#' library(STprocpoisson)
 #' data(series)
-#' Times<-identify_event_times(series,20)
-#'
+#' Times <- identify_event_times(series,20)
 #'
 #' @export
-
 identify_event_times <- function(series, threshold) {
   limia <- threshold
   tamanho <- NULL

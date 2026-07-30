@@ -19,8 +19,9 @@
 #'   \item{mtnp}{The observed cumulative mean function at the event times.}
 #' }
 #'
+#' @example examples/examples_fit_goel_model.R
+#'
 #' @export
-
 fit_goel_model <- function(data, results,Z,M, l) {
 
   Mgama<-as.matrix(results$Mgama)

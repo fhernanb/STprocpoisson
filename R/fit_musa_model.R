@@ -16,8 +16,9 @@
 #'   \item{mtnp}{The observed cumulative mean function at the event times.}
 #' }
 #'
+#' @example examples/examples_fit_musa_model.R
+#'
 #' @export
-
 fit_musa_model <- function(data, results, l) {
 
   Mean <- NULL

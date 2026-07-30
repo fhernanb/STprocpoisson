@@ -29,7 +29,6 @@
 #' for each temporal point in `tau`. The first column contains the mean values at the initial
 #' time step, and subsequent columns contain the differences between consecutive time steps.
 #' @export
-
 compute_mean_surface <- function(results, sites, X, Z, DNO, CovXNO, CovZNO, tau) {
   X <- as.matrix(X)
   Z <- as.matrix(Z)
