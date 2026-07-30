@@ -22,10 +22,10 @@
 #'   \item{mtnp}{The observed cumulative mean function at the event times.}
 #' }
 #'
+#' @example examples/examples_fit_goel_modelSA.R
+#'
 #' @export
-
 fit_goel_modelSA <- function(data, resultsSA,Z,M, l) {
-
   Mgama<-as.matrix(resultsSA$Mgama)
   Meta<-as.matrix(resultsSA$Meta)
   M<-as.matrix(M)
@@ -84,5 +84,4 @@ fit_goel_modelSA <- function(data, resultsSA,Z,M, l) {
     medy1 = medy1,
     mtnp = mtnp(data[, l])[, 2]
   ))
-
 }

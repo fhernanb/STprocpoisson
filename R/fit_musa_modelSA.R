@@ -20,10 +20,10 @@
 #'   \item{mtnp}{The observed cumulative mean function at the event times.}
 #' }
 #'
+#' @example examples/examples_fit_musa_modelSA.R
+#'
 #' @export
-
 fit_musa_modelSA <- function(data, results, l) {
-
   Mean <- NULL
   MatMean <- NULL
   for (i in 1:length(results$MW[, l])) {
